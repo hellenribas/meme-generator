@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Chakra Petch', sans-serif;
+background-color: rgba(255, 255, 0, 0.863);
+}
+h1 {
+    text-align: center;
+}
+#meme-image {
+    height: 500px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+}
+#meme-text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 420px;
+    margin-left: 30PX;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+#text-input {
+    margin-top: 100px;
+    margin-left: 750px;
+    display: block;
+    margin-bottom: 20px;
+}
+#meme-image-container {
+    display: inline-block;
+    position: relative;
+    margin-left: 550px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+#botao {
+    text-align: center;
+}
