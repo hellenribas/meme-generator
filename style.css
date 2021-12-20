@@ -24,7 +24,7 @@ h1 {
     font-weight: 700;
 }
 #text-input {
-    margin-top: 100px;
+    margin-top: 144px;
     margin-left: 750px;
     display: block;
     margin-bottom: 20px;
@@ -38,4 +38,38 @@ h1 {
 }
 #botao {
     text-align: center;
+}
+#memes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+#meme-1 {
+    width: 144px;
+    height: 144px;
+    background-position: center;
+    background-size: cover;
+    border: solid grey;
+}
+#meme-2 {
+    width: 144px;
+    height: 144px;
+    background-position: center;
+    background-size: cover;
+    border: solid grey;
+}
+#meme-3 {
+    width: 144px;
+    height: 144px;
+    background-position: center;
+    background-size: cover;
+    border: solid grey;
+}
+#meme-4 {
+    width: 144px;
+    height: 144px;
+    background-position: center;
+    background-size: cover;
+    border: solid grey;
 }

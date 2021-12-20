@@ -1,4 +1,3 @@
-
 function pegaId (id) {
     return document.getElementById(id);
 };
@@ -8,7 +7,7 @@ function criarElem (tag) {
 function evento (pai, type, callback) {
 pai.addEventListener(type, callback);
 };
-function texto () {
+function texto() {
    const texto = pegaId('meme-text');
    const input = pegaId('text-input');
    texto.innerText = input.value;
@@ -37,21 +36,27 @@ function botaoBorda (cor, id, nomeBotao) {
     pai.appendChild(botao);
     return botao;
 }
-function borda1 () {
+function borda (elem) {
     const pai = pegaId('meme-image-container');
-    pai.style.border = '3px dashed red';
+    pai.style.border = elem;
 }
-function borda2 () {
-    const pai = pegaId('meme-image-container');
-    pai.style.border = '5px double blue';
+function imgExtra (elem) {
+    if (elem.id !== 'memes') {
+  pegaId('meme-image').src = elem.src;  
 }
-function borda3 () {
-    const pai = pegaId('meme-image-container');
-    pai.style.border = '6px groove green';
 }
 
 evento(pegaId('text-input'), 'input', texto);
 evento(pegaId('meme-insert'), 'change', images);
-evento(botaoBorda('red', 'fire', 'Vermelho'), 'click', borda1);
-evento(botaoBorda('blue', 'water', 'Azul'), 'click', borda2);
-evento(botaoBorda('green', 'earth', 'Verde'), 'click', borda3);
+evento(botaoBorda('red', 'fire', 'Vermelho'), 'click',function () {
+  borda('3px dashed red');
+})
+evento(botaoBorda('blue', 'water', 'Azul'), 'click', function (){
+  borda('5px double blue');
+});
+evento(botaoBorda('green', 'earth', 'Verde'), 'click', function () {
+  borda('6px groove green');
+});
+evento(pegaId('memes'), 'click',function (event) {
+    imgExtra(event.target);
+});
