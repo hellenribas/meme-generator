@@ -11,14 +11,22 @@
     <title>Meme Generator</title>
 </head>
 <body>
+    <header>
         <h1>MEME GENERATOR</h1>
+    </header>  
     <main>
         <input type="text" id="text-input" maxlength="60">
         <div id="meme-image-container">
           <div id="meme-text"></div>
            <img id="meme-image" src="">
         </div>
-        <input type="file" id="meme-insert">
+        <section id="choice">
+            <h3>Escolha Imagem</h3>
+        <input type="file" id="meme-insert"> 
+        <h3>Escolha Borda</h3>
+        <section id="botao">
+        </section>
+    </section>
     </main>
     <section id="memes" >
         <img id="meme-1" src="imgs/meme1.png">
@@ -26,7 +34,6 @@
         <img id="meme-3" src="imgs/meme3.png">
         <img id="meme-4" src="imgs/meme4.png">
     </section>
-    <section id="botao">Bordas Personalizadas: </section>
     <script src="script.js"></script>
 </body>
 </html>

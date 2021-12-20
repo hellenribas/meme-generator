@@ -3,14 +3,18 @@ body {
     font-family: 'Baloo Bhaijaan 2', cursive;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Chakra Petch', sans-serif;
-background-color: rgba(255, 255, 0, 0.863);
+background-color: #ffca3ac7;
+background-image: url(image3.png);
+background-position: center;
+background-size: cover;
 }
 h1 {
     text-align: center;
+    color: rgb(3, 23, 133);
 }
 #meme-image {
     height: 500px;
-    width: 600px;
+    width: 580px;
     background-position: center;
     background-size: cover;
 }
@@ -24,26 +28,28 @@ h1 {
     font-weight: 700;
 }
 #text-input {
-    margin-top: 144px;
-    margin-left: 750px;
+    margin-top: 30px;
+    margin-left: 624px;
     display: block;
     margin-bottom: 20px;
 }
 #meme-image-container {
     display: inline-block;
     position: relative;
-    margin-left: 550px;
+    margin-left: 419px;
     background-color:rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
 }
 #botao {
     text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
 }
 #memes {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: -30px;
 }
 #meme-1 {
     width: 144px;
@@ -72,4 +78,24 @@ h1 {
     background-position: center;
     background-size: cover;
     border: solid grey;
+}
+#choice {
+    box-shadow: 5px 5px 5px 10px rgba(255, 255, 255, 0.863);
+    float: right;
+    padding: 26px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image4.png);
+    border-radius: 20px;
+    margin-top: 100px;
+    color: #023047;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#meme-insert {
+    padding: 0px 20px;
 }
