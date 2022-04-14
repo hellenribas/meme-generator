@@ -1,101 +1,141 @@
-
 body {
-    font-family: 'Baloo Bhaijaan 2', cursive;
-font-family: 'Bebas Neue', cursive;
-font-family: 'Chakra Petch', sans-serif;
-background-color: #ffca3ac7;
-background-image: url(image3.png);
-background-position: center;
-background-size: cover;
+  font-family: 'Baloo Bhaijaan 2', Chakra Petch, Bebas Neue, cursive, sans-serif;
+  background-color: #ffca3ac7;
+  background-image: url('image3.png');
+  background-position: center;
+  background-size: cover;
 }
+
 h1 {
-    text-align: center;
-    color: rgb(3, 23, 133);
+  text-align: center;
+  color: rgb('3, 23, 133');
 }
+
 #meme-image {
-    height: 500px;
-    width: 580px;
-    background-position: center;
-    background-size: cover;
+  height: 500px;
+  width: 580px;
+  background-position: center;
+  background-size: cover;
 }
+
 #meme-text {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    margin-top: 420px;
-    margin-left: 30PX;
-    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
-    font-size: 30px;
-    font-weight: 700;
+  position: absolute;
+  color: rgb('255, 255, 255');
+  margin-top: 420px;
+  margin-left: 30px;
+  text-shadow: rgb('0, 0, 0') 5px 5px 5px;
+  font-size: 30px;
+  font-weight: 700;
 }
+
 #text-input {
-    margin-top: 30px;
-    margin-left: 624px;
-    display: block;
-    margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 624px;
+  display: block;
+  margin-bottom: 20px;
 }
+
 #meme-image-container {
-    display: inline-block;
-    position: relative;
-    margin-left: 419px;
-    background-color:rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 29%;
+  background-color: rgb('255, 255, 255');
+  border: 1px solid rgb('0, 0, 0');
+  width: 40%;
 }
+
 #botao {
-    text-align: center;
-    margin-bottom: 10px;
-    padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
 }
+
 #memes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-left: 30%;
 }
+
 #meme-1 {
-    width: 144px;
-    height: 144px;
-    background-position: center;
-    background-size: cover;
-    border: solid grey;
+  background-color: rgb('223,216,216');
+  width: 144px;
+  height: 144px;
+  background-position: center;
+  background-size: cover;
+  border: solid grey;
 }
+
 #meme-2 {
-    width: 144px;
-    height: 144px;
-    background-position: center;
-    background-size: cover;
-    border: solid grey;
+  background-color: rgb('223, 216, 216');
+  width: 144px;
+  height: 144px;
+  background-position: center;
+  background-size: cover;
+  border: solid grey;
 }
+
 #meme-3 {
-    width: 144px;
-    height: 144px;
-    background-position: center;
-    background-size: cover;
-    border: solid grey;
+  background-color: rgb('223, 216, 216');
+  width: 144px;
+  height: 144px;
+  background-position: center;
+  background-size: cover;
+  border: solid grey;
 }
+
 #meme-4 {
-    width: 144px;
-    height: 144px;
-    background-position: center;
-    background-size: cover;
-    border: solid grey;
+  background-color: rgb('223, 216, 216');
+  width: 144px;
+  height: 144px;
+  background-position: center;
+  background-size: cover;
+  border: solid grey;
 }
+
 #choice {
-    box-shadow: 5px 5px 5px 10px rgba(255, 255, 255, 0.863);
-    float: right;
-    padding: 26px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(image4.png);
-    border-radius: 20px;
-    margin-top: 100px;
-    color: #023047;
+  box-shadow: 5px 5px 5px 10px rgba('255, 255, 255, 0.863');
+  float: right;
+  padding: 26px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('image4.png');
+  border-radius: 20px;
+  position: relative;
+  bottom: 300px;
+  color: #023047;
 }
+
 h2 {
-    text-align: center;
+  text-align: center;
 }
+
 h3 {
-    text-align: center;
+  text-align: center;
 }
+
 #meme-insert {
-    padding: 0px 20px;
+  padding: 0 20px;
+}
+
+#meme-insert:hover {
+  box-shadow: '0px 10px 10px 0px' rgb('251, 255, 255');
+}
+
+#fire:hover {
+  border-radius: 50px 0;
+}
+
+#water:hover {
+  border-radius: 50px 0;
+}
+
+#earth:hover {
+  border-radius: 50px 0;
+}
+
+h3:hover {
+  color: rgb('70, 142, 235');
 }
