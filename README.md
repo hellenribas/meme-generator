@@ -15,8 +15,6 @@
 - Foi desenvolvido um gerador de memes usando `HTML`, `CSS` e `JavaScript`.
 
 ---
-
----
 O projeto foi proposto pela Trybe, onde faço curso de desenvolvimento web full stack
 
 ---
